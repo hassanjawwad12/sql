@@ -57,3 +57,6 @@ The `HAVING` clause is used to filter results after aggregation.
 
 # Triggers
 A Trigger is an automatic action executed when a specific event (INSERT, UPDATE, or DELETE) happens on a table. Triggers help maintain data integrity or log changes automatically.
+
+# ENUMS (SPECIAL COLUMN TYPE)
+An ENUM is a special column data type that stores predefined, fixed values. It helps to restrict users to select only from a list of allowed values (like dropdown options).
