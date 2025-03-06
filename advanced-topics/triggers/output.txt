@@ -1,0 +1,2 @@
+log_id	employee_id	 old_salary	new_salary	change_date
+1	    1	         60000	    70000	    2025-03-06 14:45

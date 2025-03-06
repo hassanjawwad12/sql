@@ -56,3 +56,4 @@ The `HAVING` clause is used to filter results after aggregation.
 * Bulk Insert/Update 
 
 # Triggers
+A Trigger is an automatic action executed when a specific event (INSERT, UPDATE, or DELETE) happens on a table. Triggers help maintain data integrity or log changes automatically.
