@@ -1,0 +1,9 @@
+If Successful:
+Sender’s balance is updated.
+Receiver’s balance is updated.
+A new row is added to the transactions table.
+
+If Insufficient Funds:
+The transaction is rolled back.
+No changes are made to the accounts or transactions tables.
+Error message: ERROR: Insufficient funds in sender account.

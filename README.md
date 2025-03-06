@@ -35,3 +35,8 @@ The `HAVING` clause is used to filter results after aggregation.
 # View 
 * Creates a virtual table based on a query.
 * The point of creating a view is to simplify complex queries, enhance security, and provide a reusable and consistent way to access data. 
+
+# Transaction
+* A transaction is a sequence of SQL operations executed as a single unit of work.
+* It ensures data integrity by allowing changes to be `committed (saved)` only if all operations succeed, or `rolled back (undone)` if any operation fails.
+* Most common example is` bank funds transfer`. 
