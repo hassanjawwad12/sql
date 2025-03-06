@@ -31,8 +31,7 @@ SELECT
   MIN(salary) AS lowest_salary
 FROM employees;
 
---Grouping and Aggregating Data
-Calculate the total salary and average salary for each department:
+--Calculate the total salary and average salary for each department:
 SELECT 
   department,
   SUM(salary) AS total_salary,
