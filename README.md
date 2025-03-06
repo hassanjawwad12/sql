@@ -26,3 +26,9 @@ An Introduction to Databases and Queries
 
 # Schema 
 * A schema shows a database design such as what tables are included , any relationship between its tables and what type each field can hold
+
+# Aggregation 
+Aggregation functions in SQL are used to perform calculations on a set of values and return a single value. Here are examples of queries using each of the aggregation functions you mentioned: `COUNT()`, `SUM()`, `AVG()`, `MAX()`, and `MIN()`
+Aggregation functions are often used with the `GROUP BY` clause to group results by a specific column.
+The `HAVING` clause is used to filter results after aggregation.
+
