@@ -1,0 +1,2 @@
+-- Retreiving 5 employees with the highest salary
+SELECT * FROM employees ORDER BY salary DESC LIMIT 5;

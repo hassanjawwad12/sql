@@ -18,8 +18,11 @@ An Introduction to Databases and Queries
 * Datatype depends on the information stored in a column
 * We also have to see the operations which can be made between two values
 * `INT` can hold values from `negative two billion` to `positive 2 billion` 
-* `Float` can hold values upto `38 digits`
+* `FLOAT` can hold values upto `38 digits`
 * `VARCHAR` is used for strings
+* `DATE`    used to store date 
+* `TIMESTAMP` used to store time  `YYYY-MM-DD HH:MM:SS`
+* `BLOB` binary large object
 
 # Schema 
 * A schema shows a database design such as what tables are included , any relationship between its tables and what type each field can hold
