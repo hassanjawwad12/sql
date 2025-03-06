@@ -28,7 +28,7 @@ An Introduction to Databases and Queries
 * A schema shows a database design such as what tables are included , any relationship between its tables and what type each field can hold
 
 # Aggregation 
-Aggregation functions in SQL are used to perform calculations on a set of values and return a single value. Here are examples of queries using each of the aggregation functions you mentioned: `COUNT()`, `SUM()`, `AVG()`, `MAX()`, and `MIN()`
+* Aggregation functions in SQL are used to perform calculations on a set of values and return a single value. Here are examples of queries using each of the aggregation functions you mentioned: `COUNT()`, `SUM()`, `AVG()`, `MAX()`, and `MIN()`
 Aggregation functions are often used with the `GROUP BY` clause to group results by a specific column.
 The `HAVING` clause is used to filter results after aggregation.
 
@@ -56,10 +56,10 @@ The `HAVING` clause is used to filter results after aggregation.
 * Bulk Insert/Update 
 
 # Triggers
-A Trigger is an automatic action executed when a specific event (INSERT, UPDATE, or DELETE) happens on a table. Triggers help maintain data integrity or log changes automatically.
+* A Trigger is an automatic action executed when a specific event (INSERT, UPDATE, or DELETE) happens on a table. Triggers help maintain data integrity or log changes automatically.
 
 # ENUMS (SPECIAL COLUMN TYPE)
-An ENUM is a special column data type that stores predefined, fixed values. It helps to restrict users to select only from a list of allowed values (like dropdown options).
+* An ENUM is a special column data type that stores predefined, fixed values. It helps to restrict users to select only from a list of allowed values (like dropdown options).
 
 # Indexing 
 * Indexing is a performance optimization technique that speeds up data retrieval in SQL tables. Indexes create a lookup table that allows the database to find rows faster without scanning the entire table.
@@ -71,3 +71,11 @@ For example ```sql CREATE INDEX idx_department ON employees(department_id);```
 *  Index Types Overview 
 <img src='index.png' />
 
+# Sub-Query 
+* A Subquery is a query inside another SQL query that helps to fetch data from one query and use it as a condition or value in the main query.
+* A subquery is enclosed in parentheses ( ) and can return:
+Single Value (Scalar Subquery)
+Multiple Values (Table Subquery)
+Entire Tables (Correlated Subquery)
+* Overall Summary
+<img src='sub-query.png' />

@@ -1,0 +1,17 @@
+departments Table:
+department_id	department_name
+1	            HR
+2	            Engineering
+
+employees Table:
+employee_id	first_name	department_id	salary
+1	        John	    1	            50000
+2	        Jane	    1	            60000
+3	        Alice	    2	            70000
+4	        Bob	        2	            80000
+
+Output for ANY Query
+Alice (70,000) and Bob (80,000) have salaries greater than at least one salary in the 'HR' department (50,000 or 60,000).
+
+Output for ALL Query
+Only Bob (80,000) has a salary greater than all salaries in the 'HR' department (50,000 and 60,000).
