@@ -12,3 +12,14 @@ An Introduction to Databases and Queries
 * Rows are `records` and columns are `fields`.
 * Two fields in a table should not have the same name and neither name of the table. 
 * A unique identifier distinguishes a record from others in the same table.
+
+# Storage and Data-Types
+* Data is stored on server hardisk
+* Datatype depends on the information stored in a column
+* We also have to see the operations which can be made between two values
+* `INT` can hold values from `negative two billion` to `positive 2 billion` 
+* `Float` can hold values upto `38 digits`
+* `VARCHAR` is used for strings
+
+# Schema 
+* A schema shows a database design such as what tables are included , any relationship between its tables and what type each field can hold
