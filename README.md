@@ -32,3 +32,6 @@ Aggregation functions in SQL are used to perform calculations on a set of values
 Aggregation functions are often used with the `GROUP BY` clause to group results by a specific column.
 The `HAVING` clause is used to filter results after aggregation.
 
+# View 
+* Creates a virtual table based on a query.
+* The point of creating a view is to simplify complex queries, enhance security, and provide a reusable and consistent way to access data. 
