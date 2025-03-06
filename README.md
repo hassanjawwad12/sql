@@ -60,3 +60,14 @@ A Trigger is an automatic action executed when a specific event (INSERT, UPDATE,
 
 # ENUMS (SPECIAL COLUMN TYPE)
 An ENUM is a special column data type that stores predefined, fixed values. It helps to restrict users to select only from a list of allowed values (like dropdown options).
+
+# Indexing 
+* Indexing is a performance optimization technique that speeds up data retrieval in SQL tables. Indexes create a lookup table that allows the database to find rows faster without scanning the entire table.
+* You can create an index on multiple columns to speed up searches with multiple conditions known as `composite index`
+* A `Unique Index `ensures that no two rows have the same value in the indexed column.
+* `Full-Text Indexes` help in searching text data within large documents or descriptions.
+* Always create an index on `Foreign Key Columns `to `speed` up `JOIN queries`. 
+For example ```sql CREATE INDEX idx_department ON employees(department_id);```
+*  Index Types Overview 
+<img src='index.png' />
+
