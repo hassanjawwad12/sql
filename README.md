@@ -79,3 +79,8 @@ Multiple Values (Table Subquery)
 Entire Tables (Correlated Subquery)
 * Overall Summary
 <img src='sub-query.png' />
+
+# Joins 
+* A JOIN combines rows from two or more tables based on a common column (usually a foreign key).
+* When to use which? 
+<img src='join.png' />
