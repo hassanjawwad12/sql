@@ -17,3 +17,14 @@ WHERE c.customer_id IN (
     GROUP BY o.customer_id 
     HAVING SUM(o.total_amount) > 300
 );
+
+-- Write a query to display the first_name, department_name, and salary of employees who earn 
+-- more than the average salary of their department. Use a join and a nested query.
+SELECT e.first_name, d.department_name, e.salary
+FROM employees e
+JOIN departments d on e.department_id = d.department_id
+WHERE e.salary > (
+    SELECT AVG(e2.salary)
+    FROM employees e2
+    WHERE e2.department_id = e.department_id
+);
