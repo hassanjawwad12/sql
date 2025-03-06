@@ -51,9 +51,9 @@ The `HAVING` clause is used to filter results after aggregation.
 `Modular Programming`:Break complex operations into smaller reusable procedures.
 
 * ## When Should You Use Stored Procedures?
-* Repeated Queries     
-* Complex Business Logic 
-* Bulk Insert/Update 
+   * Repeated Queries     
+   * Complex Business Logic 
+   * Bulk Insert/Update 
 
 # Triggers
 * A Trigger is an automatic action executed when a specific event (INSERT, UPDATE, or DELETE) happens on a table. Triggers help maintain data integrity or log changes automatically.
