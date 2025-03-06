@@ -1,0 +1,3 @@
+first_name	salary
+Alice	60000
+John	55000

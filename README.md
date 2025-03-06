@@ -40,3 +40,21 @@ The `HAVING` clause is used to filter results after aggregation.
 * A transaction is a sequence of SQL operations executed as a single unit of work.
 * It ensures data integrity by allowing changes to be `committed (saved)` only if all operations succeed, or `rolled back (undone)` if any operation fails.
 * Most common example is` bank funds transfer`. 
+
+# Transaction 
+* A Stored Procedure is a reusable block of SQL code that performs a specific task, such as inserting data or fetching records. 
+* It can accept input parameters and return results.
+
+# Procedures 
+* A Stored Procedure is used to `group multiple SQL statements `into one `reusable unit` — making database operations more efficient, secure, and manageable.
+* Key Reasons to Use Stored Procedures:
+`Code Reusability`:Write the logic once and reuse it anytime by calling the procedure.
+`Performance Boost`:Precompiled and optimized by the database engine — faster than writing queries every time.
+`Security`:Prevent `SQL Injection` by using parameterized queries.
+`Easy Maintenance`:If business logic changes, just update the procedure — no need to modify the whole application.
+`Modular Programming`:Break complex operations into smaller reusable procedures.
+
+## When Should You Use Stored Procedures?
+* Repeated Queries     
+* Complex Business Logic 
+* Bulk Insert/Update 
