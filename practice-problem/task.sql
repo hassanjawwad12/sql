@@ -17,7 +17,7 @@
 -- The country is 'USA'.
 -- Only completed orders should be considered (WHERE).
 -- Group the data by CustomerName and Country (GROUP BY).
--- Show only those customers whose total completed order amount is greater than 1000 (HAVING).
+-- Show only those customers whose total completed order amount is greater than 1000.
 -- Sort the results by Total Amount in descending order (ORDER BY).
 
 SELECT c.CustomerName, c.Country, SUM(o.Amount) AS TotalAmount
